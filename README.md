@@ -26,6 +26,7 @@ Figure out what you need to change to give Javascript access to the `h1#header` 
 
 **YOUR NOTES**
 ```
+Debugging andreturn value in console showed null as the value of our variable. Added defer to the script tag of the index.html, resolved the issue.
 
 ```
 
@@ -35,7 +36,7 @@ Now that you have access to the `h1#header` element, use Javascript to change th
 
 **YOUR NOTES**
 ```
-
+Tried various syntax versions, JS is forgiving and you might think its working, but you would be wrong!
 ```
 
 ## Deliverable 3
@@ -57,7 +58,7 @@ Create a DOM element that looks like this for each player and append it to the `
 
 **YOUR NOTES**
 ```
-
+Took me a while to find the correct method "setAttribute" and to decide it wanted to get the value of the player number on the new attribute to get it for deleting
 ```
 
 ## Deliverable 4
@@ -68,5 +69,7 @@ Hint: You can use `querySelector` with [CSS Attribute Selectors](https://develop
 
 **YOUR NOTES**
 ```
-
+Searced OnLine and found this wonderfull syntax 
+querySelector(`div.player[data-number="7"]`)
+it allows you to select a tag with a tagName that has a specific attribute with a specific value
 ```
