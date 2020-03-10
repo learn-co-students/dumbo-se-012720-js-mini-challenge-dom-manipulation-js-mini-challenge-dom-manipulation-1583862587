@@ -26,7 +26,7 @@ Figure out what you need to change to give Javascript access to the `h1#header` 
 
 **YOUR NOTES**
 ```
-
+I googled querySelector returning null and found that the script needs to be called after the page is loaded. Hence, I added defer before the src in the script so it runs after everything else.
 ```
 
 ## Deliverable 2
@@ -57,7 +57,7 @@ Create a DOM element that looks like this for each player and append it to the `
 
 **YOUR NOTES**
 ```
-
+get access to player-container using queryselector> write a render function that appends a new item to the div> write a forEach method to process the players.
 ```
 
 ## Deliverable 4
@@ -68,5 +68,5 @@ Hint: You can use `querySelector` with [CSS Attribute Selectors](https://develop
 
 **YOUR NOTES**
 ```
-
+use .remove()
 ```
