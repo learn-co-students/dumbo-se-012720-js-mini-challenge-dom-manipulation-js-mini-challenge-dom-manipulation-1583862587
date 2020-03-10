@@ -26,7 +26,7 @@ Figure out what you need to change to give Javascript access to the `h1#header` 
 
 **YOUR NOTES**
 ```
-
+used defer in the script tag
 ```
 
 ## Deliverable 2
